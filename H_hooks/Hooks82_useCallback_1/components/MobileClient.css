@@ -1,0 +1,21 @@
+div.MobileClient
+{
+  padding: 2px 0;
+}
+
+span.MobileClientBalance
+{
+  float: right;
+  width: 80px;
+  font-weight: bold;
+  text-align: right;
+}
+
+span.MobileClientBalance > input {
+  margin-left: 5px;
+}
+
+span.MobileClientFIO
+{
+  margin-right: 30px;
+}
