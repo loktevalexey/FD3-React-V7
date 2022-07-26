@@ -4,7 +4,7 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
 import combinedReducer from '../redux/reducers.js';
-import CountriesList from '../core/CountriesList';
+import CountriesList from './CountriesList';
 
 let store=createStore(combinedReducer, applyMiddleware(thunk));
 
