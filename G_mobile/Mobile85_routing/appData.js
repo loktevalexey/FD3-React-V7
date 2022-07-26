@@ -1,5 +1,5 @@
 let data={
-    companyName:'Velcom',
+    companyName:'A1',
     clientsArr:[ 
         {id:101, fio:"Иванов И.И.", balance:200}, 
         {id:105, fio:"Сидоров С.С.", balance:250}, 

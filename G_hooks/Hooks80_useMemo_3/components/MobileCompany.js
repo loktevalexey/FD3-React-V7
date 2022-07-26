@@ -32,7 +32,7 @@ export default props => {
       <div>
         <b>Компания: {companyName}</b><br/>
         <input type="button" value="МТС" onClick={ ()=>setCompanyName("МТС") } />
-        <input type="button" value="Velcom" onClick={ ()=>setCompanyName("Velcom") } />
+        <input type="button" value="A1" onClick={ ()=>setCompanyName("A1") } />
       </div>
       { clientsMemoizeed }
       <input type="button" value="Сидоров++" onClick={sidorov} />

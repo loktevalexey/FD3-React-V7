@@ -56,7 +56,7 @@ class MobileCompany extends React.Component {
   };
 
   setName2 = () => {
-    this.setState({name:'Velcom'});
+    this.setState({name:'A1'});
   };
   
   updateBalance = (clientId,delta) => {
@@ -98,7 +98,7 @@ class MobileCompany extends React.Component {
     return (
       <div className='MobileCompany'>
         <input type="button" value="=МТС" onClick={this.setName1} />
-        <input type="button" value="=Velcom" onClick={this.setName2} />
+        <input type="button" value="=A1" onClick={this.setName2} />
         <div className='MobileCompanyName'>Компания &laquo;{this.state.name}&raquo;</div>
         <div className='MobileCompanyClients'>
           {clientsCode}

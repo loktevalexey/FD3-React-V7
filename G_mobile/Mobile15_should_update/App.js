@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import MobileCompany from './components/MobileCompany';
 
-let companyName='Velcom';
+let companyName='A1';
 let clientsArr=[ 
   {id:101, fio:"Иванов И.И.", balance:200}, 
   {id:105, fio:"Сидоров С.С.", balance:250}, 
