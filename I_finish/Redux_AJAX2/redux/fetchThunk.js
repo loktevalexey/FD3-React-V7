@@ -1,5 +1,3 @@
-import isoFetch from 'isomorphic-fetch';
-
 import { countriesLoadingAC, countriesErrorAC, countriesSetAC } from "./countriesAC";
 
 function countriesThunkAC(dispatch) {
@@ -10,7 +8,7 @@ function countriesThunkAC(dispatch) {
     // ВЫПОЛНЯЕТ эту функцию и не пропускает её дальше, к редьюсерам.
     return function() {
         dispatch( countriesLoadingAC() );
-        isoFetch("http://fe.it-academy.by/Examples/net_city/countries.json")
+        fetch("http://fe.it-academy.by/Examples/net_city/countries.json")
             .then( (response) => { // response - HTTP-ответ
                 if (!response.ok) {
                     let Err=new Error("fetch error " + response.status);

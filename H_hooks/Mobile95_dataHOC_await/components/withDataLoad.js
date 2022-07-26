@@ -1,5 +1,4 @@
 import React from 'react';
-import isoFetch from 'isomorphic-fetch';
 
 let withDataLoad = (fetchConfig,propName) => Component => {
 
@@ -27,7 +26,7 @@ let withDataLoad = (fetchConfig,propName) => Component => {
         loadData = async () => {
       
           try {
-            let response=await isoFetch(fetchConfig.URL, fetchConfig);
+            let response=await fetch(fetchConfig.URL, fetchConfig);
             if (!response.ok) {
               throw new Error("fetch error " + response.status);
             }

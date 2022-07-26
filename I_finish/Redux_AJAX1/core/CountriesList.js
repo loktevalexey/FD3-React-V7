@@ -1,7 +1,6 @@
 ﻿import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
-import isoFetch from 'isomorphic-fetch';
 
 import { countriesLoadingAC, countriesErrorAC, countriesSetAC } from "../redux/countriesAC";
 
@@ -15,7 +14,7 @@ class CountriesList extends React.PureComponent {
 
     this.props.dispatch( countriesLoadingAC() ); // переводим раздел countries стора в состояние "загружается"
 
-    isoFetch("http://fe.it-academy.by/Examples/net_city/countries.json")
+    fetch("http://fe.it-academy.by/Examples/net_city/countries.json")
         .then( (response) => { // response - HTTP-ответ
             if (!response.ok) {
                 let Err=new Error("fetch error " + response.status);

@@ -1,5 +1,4 @@
 ﻿import React from 'react';
-import isoFetch from 'isomorphic-fetch';
 
 import MobileClient from './MobileClient';
 
@@ -40,7 +39,7 @@ class MobileCompany extends React.PureComponent {
 
   loadData = async () => {
 
-    const response=await isoFetch("http://fe.it-academy.by/TestFetch.php", {
+    const response=await fetch("http://fe.it-academy.by/TestFetch.php", {
       method: 'post',
       headers: {
         "Accept": "application/json",
@@ -63,7 +62,7 @@ class MobileCompany extends React.PureComponent {
   // то же самое через цепочку .then/.catch
   loadData = () => {
 
-    isoFetch("http://fe.it-academy.by/TestFetch.php", {
+    fetch("http://fe.it-academy.by/TestFetch.php", {
         method: 'post',
         headers: {
             "Accept": "application/json",
