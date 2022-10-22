@@ -18,8 +18,8 @@
     
     // как можно достучаться к атрибутам тега:
     console.log(EO.target.getAttribute('value'));    // сработает с любым атрибутом
-    console.log(EO.target.getAttribute('data-zzz')); // сработает с любым атрибутом
-    console.log(EO.target.dataset.zzz);              // сработает только с data- атрибутами
+    console.log(EO.target.getAttribute('data-kkk')); // сработает с любым атрибутом
+    console.log(EO.target.dataset.kkk);              // сработает только с data- атрибутами
   },
 
   freeAnswerTextChanged: function(EO) { 
@@ -36,7 +36,7 @@
             value:this.props.code,
             name:'voteanswer',
             onClick:this.answerClicked,
-            'data-zzz':this.props.code+100,
+            'data-kkk':this.props.code+100,
           }),
           React.DOM.span(null,this.props.text),
           this.props.freeanswer
