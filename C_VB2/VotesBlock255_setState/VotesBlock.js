@@ -30,6 +30,7 @@
 
   cntPlus3: function() {
     this.setState({cnt:this.state.cnt+3});
+    
     // this.setState({cnt:this.state.cnt+1});
     // this.setState({cnt:this.state.cnt+1});
     // this.setState({cnt:this.state.cnt+1});
