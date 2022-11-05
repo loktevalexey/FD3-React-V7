@@ -65,6 +65,9 @@ class VotesBlock extends React.Component {
 
     let VotesQuestionWithBG=withColorBackground("cyan")(VotesQuestion);
 
+    //const withCyanBackground=withColorBackground("cyan");
+    //let VotesQuestionWithBG=withCyanBackground(VotesQuestion);
+
     return (
       <div className='VotesBlock'>
         <VotesQuestionWithBG question={this.props.question}/>

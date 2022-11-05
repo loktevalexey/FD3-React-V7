@@ -7,6 +7,8 @@ import VotesQuestion from './VotesQuestion';
 import VotesAnswer from './VotesAnswer';
 import { withColorBackground } from './withColorBackground';
 
+//const VotesQuestionWithBG=withColorBackground(VotesQuestion);
+
 class VotesBlock extends React.Component {
 
   static propTypes = {
