@@ -32,7 +32,7 @@ class MobileCompany extends React.Component {
   };
   
   setBalance = (clientId,newBalance) => {
-    let newClients=this.state.clients;
+    let newClients=this.state.clients.slice();
     newClients.forEach( c => {
       if ( c.id==clientId )
         c.balance=newBalance;
