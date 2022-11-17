@@ -7,11 +7,15 @@ class PagesLinks extends React.Component {
           
   render() {
 
+    function getLinkClass(linkInfo) {
+      return "PageLink"+(linkInfo.isActive?" ActivePageLink":"");
+    }
+
     return (
       <div>
-        <NavLink to="/" className={obj => ("PageLink"+(obj.isActive?" ActivePageLink":""))}>Главная</NavLink>
-        <NavLink to="/company" className={obj => ("PageLink"+(obj.isActive?" ActivePageLink":""))}>О компании</NavLink>
-        <NavLink to="/clients" className={obj => ("PageLink"+(obj.isActive?" ActivePageLink":""))}>Клиенты</NavLink>
+        <NavLink to="/" className={getLinkClass}>Главная</NavLink>
+        <NavLink to="/company" className={getLinkClass}>О компании</NavLink>
+        <NavLink to="/clients" className={getLinkClass}>Клиенты</NavLink>
       </div>
     );
     
