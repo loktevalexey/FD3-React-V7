@@ -8,8 +8,10 @@ export const PageFilmSearch = () => {
     let navigate = useNavigate();
 
     function goToFilmDetails() {
-      navigate("/details/"+filmName);
-      //navigate("/details/"+encodeURIComponent(filmName));
+      const uri="/details/"+filmName;
+      //const uri="/details/"+encodeURIComponent(filmName);
+      console.log(uri);
+      navigate(uri);
     }
 
     return (
