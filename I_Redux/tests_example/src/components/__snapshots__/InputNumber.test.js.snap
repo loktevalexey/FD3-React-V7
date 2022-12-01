@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`работа InputNumber 1`] = `
+<div>
+  <h3>
+    Ввод числа
+  </h3>
+  <input
+    data-testid="inp"
+    onChange={[Function]}
+    type="text"
+    value={0}
+  />
+  <div>
+    число: 0, степень двойки: 1
+  </div>
+</div>
+`;
+
+exports[`работа InputNumber 2`] = `
+<div>
+  <h3>
+    Ввод числа
+  </h3>
+  <input
+    data-testid="inp"
+    onChange={[Function]}
+    type="text"
+    value={5}
+  />
+  <div>
+    число: 5, степень двойки: 32
+  </div>
+</div>
+`;
