@@ -22,7 +22,7 @@ test('работа InputNumber', () => {
   act(() => {
     // делаем вид, что произошло событие onChange
     // сработает обработчик, поменяет стейт, а от него поменяется цифра в поле
-    const mockChangeEvent = { target: { value: '5' } }
+    const mockChangeEvent = { target: { value: '5' } };
     inputElem.props.onChange(mockChangeEvent);
   });
 

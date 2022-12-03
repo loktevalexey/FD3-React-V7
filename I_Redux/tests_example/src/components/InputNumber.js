@@ -2,7 +2,7 @@
 
 import {power2} from '../modules/power2';
 
-export const InputNumber = props => {
+export const InputNumber = () => {
 
   const [cnt,setCnt] = useState(0);
 
@@ -19,3 +19,4 @@ export const InputNumber = props => {
   );
 
 };
+
