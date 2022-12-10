@@ -6,7 +6,7 @@
     code: React.PropTypes.number.isRequired,
     count: React.PropTypes.number.isRequired,
     text: React.PropTypes.string.isRequired,
-    workMode: React.PropTypes.number.isRequired,
+    workMode: React.PropTypes.number.isRequired, 
   },
 
   render: function() {

@@ -28,7 +28,11 @@
 
     ReactDOM.render(
       React.createElement(VotesBlock,
-        {question:questionText,answers:answersArr,workMode:1}), 
+        {
+          question:questionText,
+          answers:answersArr,
+          workMode:2 // 1 - приём голоса, 2 - отображение результатов
+        }), 
       document.getElementById('container') 
     );
 

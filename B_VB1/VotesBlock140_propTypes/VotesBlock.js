@@ -5,15 +5,14 @@
   propTypes: {
     question: React.PropTypes.string.isRequired, // текст вопроса
     answers: React.PropTypes.array.isRequired, // варианты ответов и счётчики
-    /*
-    answers:React.PropTypes.arrayOf(
-      React.PropTypes.shape({
-        code: React.PropTypes.number.isRequired,
-        count: React.PropTypes.number.isRequired,
-        text: React.PropTypes.string.isRequired,
-      })
-    )
-    */
+    // answers:React.PropTypes.arrayOf(
+    //   React.PropTypes.shape({
+    //     code: React.PropTypes.number.isRequired,
+    //     count: React.PropTypes.number.isRequired,
+    //     text: React.PropTypes.string.isRequired,
+    //   })
+    // )
+
   },
 
   render: function() {
