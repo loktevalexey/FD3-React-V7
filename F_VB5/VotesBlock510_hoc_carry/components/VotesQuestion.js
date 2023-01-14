@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import PropTypes from 'prop-types';
 
-//import { withColorBackground } from './withColorBackground';
+import { withColorBackground } from './withColorBackground';
 
 import './VotesQuestion.css';
 
