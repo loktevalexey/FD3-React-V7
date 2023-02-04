@@ -18,7 +18,7 @@ export default props => {
   );
 
   function sidorov() {
-    let newClients=clients.slice(); // не пытаемся вносить иммутабельные изменения,
+    let newClients=clients.slice(); // это не про иммутабельные изменения,
     // просто для setClients требуется чтобы аргумент изменился, иначе перерендера не будет
     newClients.forEach( client => {
       if ( client.id===105 )

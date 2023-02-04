@@ -19,6 +19,7 @@ export const App = () => (
             <ShowFruits/>
             <br/><br/><hr/><br/>
             <ShowProfile/>
+            <br/><br/>
         </div>
     </Provider>
 );

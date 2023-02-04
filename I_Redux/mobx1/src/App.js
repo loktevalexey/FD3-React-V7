@@ -13,5 +13,6 @@ export const App = () => (
         <PlateApplesView plateModel={plateModel} />
         <br/><hr/><br/>
         <PlatePearsView plateModel={plateModel} />
+        <br/><br/>
     </div>
 );

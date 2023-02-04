@@ -19,6 +19,7 @@ export const App = () => (
             <ProfileChange/>
             <br/><br/><hr/><br/>
             <ShowInfo/>
+            <br/><br/>
         </div>
     </Provider>
 );
