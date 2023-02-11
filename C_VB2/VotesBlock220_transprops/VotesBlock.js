@@ -3,6 +3,7 @@
   displayName: 'VotesBlock',
 
   propTypes: {
+    // workMode: 1 - приём голоса, 2 - отображение результатов
     workMode: React.PropTypes.number.isRequired,
     question: React.PropTypes.string.isRequired,
     answers:React.PropTypes.arrayOf(

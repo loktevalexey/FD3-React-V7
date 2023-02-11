@@ -19,7 +19,11 @@
           React.DOM.input({type:'radio',value:this.props.code,name:'voteanswer'}),
           React.DOM.span(null,this.props.text),
           this.props.freeanswer
-            ?React.DOM.input({type:'text',name:'votefreeanswer',className:'FreeAnswer',defaultValue:this.props.freeanswertext})
+            ?React.DOM.input({
+              type:'text',name:'votefreeanswer',
+              className:'FreeAnswer',
+              defaultValue:this.props.freeanswertext
+            })
             :null
         ),
       );
