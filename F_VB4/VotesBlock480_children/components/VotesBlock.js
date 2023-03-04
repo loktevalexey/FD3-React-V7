@@ -69,7 +69,8 @@ class VotesBlock extends React.Component {
         <ColorFrame color="red">
           <div className='Answers'>{answersCode}</div>
         </ColorFrame>
-        {/* <ColorFrame color="red" cld={<div className='Answers'>{answersCode}</div>} /> */}
+        {/* <ColorFrame color="red" 
+          children={<div className='Answers'>{answersCode}</div>} /> */}
         {/* <ColorFrame color="red">
           {2}
         </ColorFrame> */}

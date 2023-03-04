@@ -10,7 +10,7 @@ class VotesQuestion extends React.Component {
   };
   
   // в атрибуте ref нужного тега будем указывать вот эту переменную-ссылку
-  newTextRef = React.createRef();
+  newTextRef = React.createRef(); // return { current: undefined }
 
   state = {
     question: this.props.question,
