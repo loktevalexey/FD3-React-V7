@@ -25,7 +25,8 @@ class MobileCompany extends React.Component {
   };
 
   shouldComponentUpdate = (newProps,newState) => {
-    return !( deepEqual(newProps,this.props)&&deepEqual(newState,this.state) );
+    return !deepEqual(newProps,this.props) 
+        || !deepEqual(newState,this.state);
   };
   
   setName1 = () => {
