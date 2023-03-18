@@ -22,8 +22,8 @@ function personReducer(state, action) {
 export default props => {
 
   const [personInfo, personDispatch] = useReducer(
-    personReducer, 
-     {age:25,gender:'M'}
+      personReducer, 
+      {age:25,gender:'M'}
   );
 
   return (

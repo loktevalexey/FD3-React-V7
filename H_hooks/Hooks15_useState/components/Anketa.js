@@ -2,7 +2,7 @@
 
 import "./Anketa.css";
 
-export default props => {
+const Anketa = props => {
 
   const [age, setAge] = useState(25);
 
@@ -15,3 +15,5 @@ export default props => {
     </div>
   );
 };
+
+export default Anketa;

@@ -7,4 +7,3 @@ ReactDOM.render(
   <Anketa/>
   , document.getElementById('container') 
 );
-
