@@ -14,10 +14,10 @@ export default props => {
         console.log(fruit);
         setCnt(prevCnt=>prevCnt+1); 
       },1000);
-      console.log("таймер запущен");
+      console.log("таймер запущен "+fruit);
       return ()=>{
         clearInterval(timer);
-        console.log("таймер остановлен");
+        console.log("таймер остановлен "+fruit);
         // раз что-то возвращается из этой функции, значит, это - функция очистки эффекта, 
         // то что нужно выполнить при размонтировании компонента и при изменении fruit
       };
