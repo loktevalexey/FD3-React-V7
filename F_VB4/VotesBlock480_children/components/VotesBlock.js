@@ -72,7 +72,7 @@ class VotesBlock extends React.Component {
         {/* <ColorFrame color="red" 
           children={<div className='Answers'>{answersCode}</div>} /> */}
         {/* <ColorFrame color="red">
-          {2}
+          { 2 }
         </ColorFrame> */}
         {
           ((this.state.workMode==1)&&this.state.selectedAnswerCode) &&
