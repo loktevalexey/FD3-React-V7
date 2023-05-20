@@ -28,7 +28,7 @@ class MobileClient extends React.Component {
 
   render() {
 
-    console.log("MobileClient id="+this.props.id+" render");
+    console.log("MobileClient id="+this.props.id+" render "+this.state.balance);
     
     return (
       <div className='MobileClient'>
