@@ -1,7 +1,7 @@
 {
-  "name": "votesblock",
+  "name": "reactmemo",
   "version": "1.0.0",
-  "description": "блок голосования",
+  "description": "React.memo example",
   "main": "App.js",
   "scripts": {
     "build": ".\\node_modules\\.bin\\webpack",

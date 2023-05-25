@@ -1,7 +1,7 @@
 {
-  "name": "votesblock",
+  "name": "usecallback1",
   "version": "1.0.0",
-  "description": "блок голосования",
+  "description": "useCallback example #1",
   "main": "App.js",
   "scripts": {
     "build": ".\\node_modules\\.bin\\webpack",

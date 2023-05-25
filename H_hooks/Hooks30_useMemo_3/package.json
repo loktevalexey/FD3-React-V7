@@ -1,7 +1,7 @@
 {
-  "name": "votesblock",
+  "name": "usememo3",
   "version": "1.0.0",
-  "description": "блок голосования",
+  "description": "useMemo example #3",
   "main": "App.js",
   "scripts": {
     "build": ".\\node_modules\\.bin\\webpack",

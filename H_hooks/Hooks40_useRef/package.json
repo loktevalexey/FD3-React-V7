@@ -1,7 +1,7 @@
 {
-  "name": "votesblock",
+  "name": "useref",
   "version": "1.0.0",
-  "description": "блок голосования",
+  "description": "useRef example",
   "main": "App.js",
   "scripts": {
     "build": ".\\node_modules\\.bin\\webpack",

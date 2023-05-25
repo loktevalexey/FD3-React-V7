@@ -1,7 +1,7 @@
 {
-  "name": "votesblock",
+  "name": "useeffect1",
   "version": "1.0.0",
-  "description": "блок голосования",
+  "description": "useEffect example #1",
   "main": "App.js",
   "scripts": {
     "build": ".\\node_modules\\.bin\\webpack",

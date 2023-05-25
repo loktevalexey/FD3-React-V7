@@ -1,7 +1,7 @@
 {
-  "name": "votesblock",
+  "name": "usestate",
   "version": "1.0.0",
-  "description": "блок голосования",
+  "description": "useState example",
   "main": "App.js",
   "scripts": {
     "build": ".\\node_modules\\.bin\\webpack",
