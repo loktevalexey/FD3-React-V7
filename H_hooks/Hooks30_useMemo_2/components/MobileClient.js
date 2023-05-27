@@ -4,6 +4,8 @@ import "./MobileClient.css";
 
 export default ({fio,balance}) => {
 
+  // console.log("run MobileClient "+fio);
+
   const memoizeedRenderResult=useMemo(
     ()=>{
       console.log("render MobileClient "+fio);
