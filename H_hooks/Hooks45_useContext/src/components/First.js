@@ -12,6 +12,8 @@ export const First = () => {
   const [style1,setStyle1]=useState( { fontSize:18, color:"blue", incFontSize:incFontSize1 } );
   const [style2,setStyle2]=useState( { fontSize:22, color:"red",  incFontSize:incFontSize2 } );
 
+  console.log("render First component");
+
   return (
     <>
         <StyleContext.Provider value={ style1 }>
