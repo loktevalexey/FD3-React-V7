@@ -48,6 +48,11 @@ let withDataLoad = (fetchConfig,propName) => Component => {
             ...this.props,
             [propName]:this.state.loadedData
           };
+          /*
+          это то же самое что и:
+          let compProps={...this.props};
+          compProps[propName]=this.state.loadedData;
+          */
           return <Component {...compProps} /> ;
         }
       
