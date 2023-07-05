@@ -7,7 +7,7 @@ class VotesQuestion extends React.Component {
 
   static propTypes = {
     question: PropTypes.string.isRequired,
-    auxClassName: PropTypes.string.isRequired,
+    auxClassName: PropTypes.string,
   };
   
   state = {
@@ -19,7 +19,7 @@ class VotesQuestion extends React.Component {
   
   render() {
     console.log("render "+this.state.auxClassName);
-    return <div className={'VotesQuestion '+this.state.auxClassName}>{this.props.question}</div>;
+    return <div className={'VotesQuestion '+(this.state.auxClassName||"")}>{this.props.question}</div>;
   }
 
   componentDidUpdate = (oldProps, oldState) => { 
