@@ -4,7 +4,7 @@ import "./Bar.css";
 
 export default props => {
 
-  const barRef=useRef(null);
+  const barRef=useRef(null); // возвращается { current:null }
 
   const measure = () => {
     if ( barRef.current )

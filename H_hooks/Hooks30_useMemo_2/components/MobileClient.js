@@ -4,11 +4,11 @@ import "./MobileClient.css";
 
 export default ({fio,balance}) => {
 
-  // console.log("run MobileClient "+fio);
+  //console.log("render MobileClient "+fio);
 
   const memoizeedRenderResult=useMemo(
     ()=>{
-      console.log("render MobileClient "+fio);
+      console.log("compose JSX MobileClient "+fio);
       return (
         <div className='MobileClient'>
           <span className='MobileClientBalance'>{balance}</span>
@@ -16,7 +16,7 @@ export default ({fio,balance}) => {
         </div>
       )
     },
-    [balance,fio]   
+    [balance,fio]
   );
   // useMemo запоминает то что вернула функция (т.е. в данном случае - кусок JSX).
   // при следующем рендере, если зависимости (т.е. то что указано во втором аргументе) не изменились,
